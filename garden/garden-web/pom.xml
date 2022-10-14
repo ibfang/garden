@@ -17,7 +17,12 @@
     </properties>
     <!-- 打包方式设为jar -->
     <packaging>jar</packaging>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>garden-service</artifactId>
+        </dependency>
+    </dependencies>
 
 
     <build>
